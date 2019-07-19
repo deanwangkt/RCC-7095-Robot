@@ -20,7 +20,7 @@ void Claw::InitDefaultCommand() {
 }
 
 void Claw::Shoot(double vel) {
-  shooter_high.Set(vel);
+  shooter_high.Set(vel - 0.15);
   shooter_low.Set(vel);
 }
 
